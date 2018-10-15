@@ -5,23 +5,23 @@
 Implement and practice the use of HTML elements and attributes.
 
   1. Create an index.html file, insert the basic elements needed to start an html file, this will include a doctype, html element, head element, and body element.
-      * Hint: There is a keyboard shortcut in VS Code to complete this! Try researching emmet abbreviations.
+      * **Hint**: There is a keyboard shortcut in VS Code to complete this! Try researching emmet abbreviations.
   2. Inside the `<body>` of your page, insert `<h1>` through `<h6>` elements, give each heading element some funny text.
   3. Add a comment before each heading to give yourself a reminder what the purpose of that section should be.
   4. Insert a paragraph element after each heading. Inside each `<p>`, write a little bit about yourself.
   5. Add an image after each paragraph on your page.
   6. "Wrap" each section (heading, paragraph, and image) with a `<section>` tag. The open section tag should precede the first heading tag, and the closing section tag should be after the image tag. Remember to indent properly!
-      * Hint: if your indentation ever gets out of whack, just right click anywhere in VS Code and click "Format Document"!
+      * **Hint**: if your indentation ever gets out of whack, just right click anywhere in VS Code and click "Format Document"!
   7. Between every paragraph and image, create an unordered list with at least three list items. Again, the content contained in this list is up to you!
   8. Create a form with 3 inputs for first name, last name, and email address. Make sure each input is labeled, and that all of them (not each individually) are wrapped with a form tag.
   9. Add a button to the form using an input tag.
-      * Hint: You may need to google input type submit.
+      * **Hint**: You may need to google input type submit.
   10. Create an ordered list, give the list at least 5 list items of things you're excited to learn about in Covalence.
   11. Create an unordered list, give this list at least 5 interesting facts about yourself.
   12. Wrap the entire page in a `<div>`.
-      * Hint: UI elements can only be placed within the `<body>`.
+      * **Hint**: UI elements can only be placed within the `<body>`.
   13. Reformat the document. How does it change compared to what you had originally written?
-      * Hint: You can use CMD + Z to undo and CMD + SHIFT + Z to redo on a Mac. On Windows it is CTRL + Z to undo and CTRL + Y to redo.
+      * **Hint**: You can use CMD + Z to undo and CMD + SHIFT + Z to redo on a Mac. On Windows it is CTRL + Z to undo and CTRL + Y to redo.
   14. Add a horizontal line between each section in your document.
   15. Add hyperlinks to each image that opens the image in a new tab.
   16. At the top of your page, create a table with the following columns (headers): Month, Day, Year.
