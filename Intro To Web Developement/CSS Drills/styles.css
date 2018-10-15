@@ -1,0 +1,169 @@
+body {
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.boxes {
+    display: block;
+    width: 20%;
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    border-radius: 5%;
+    position: relative;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: purple;
+}
+
+.color-weight {
+    color: blue;
+    font-weight: 100;
+}
+
+#box1 {
+    background-color: gold;
+}
+
+#box2 {
+    background-color: darkred;
+}
+
+#box3 {
+    background-color: burlywood;
+}
+
+#boxN {
+    background-color: cornflowerblue;
+}
+
+.image {
+    width: 1em;
+    height: 1em;
+    background-color: darkseagreen;
+    position: relative;
+    top: 3em;
+    right: 1em;
+}
+
+h1 {
+    color: azure;
+}
+
+.anime {
+    color: green
+}
+
+.realistic {
+    color: purple;
+}
+
+#show1 {
+    color: whitesmoke;
+}
+
+#show2 {
+    color: bisque;
+}
+
+#show3 {
+    color: turquoise;
+}
+
+#show4 {
+    color: wheat
+}
+
+#show5 {
+    color: tomato;
+}
+
+.list1 {
+    color: green;
+}
+
+.list2 {
+    color: orange;
+}
+
+.list3 {
+    color: purple;
+}
+
+#item1 {
+    color: red;
+}
+
+#item2 {
+    color: orange;
+}
+
+#item3 {
+    color: yellow;
+}
+
+#item4 {
+    color: green;
+}
+
+#item5 {
+    color: blue;
+}
+
+#item6 {
+    color: purple;
+}
+
+#item7 {
+    color: rgb(255, 117, 140);
+}
+
+#item8 {
+    color: red;
+}
+
+#item9 {
+    color: orange
+}
+
+#item10 {
+    color: yellow
+}
+
+#item11 {
+    color: green;
+}
+
+#item12 {
+    color: blue;
+}
+
+#item13 {
+    color: purple;
+}
+
+#item14 {
+    color: rgb(255, 117, 140);
+}
+
+#item15 {
+    color: gold;
+}
+
+.list {
+    border: 2px;
+    border-style: solid;
+    border-bottom-color: black;
+}

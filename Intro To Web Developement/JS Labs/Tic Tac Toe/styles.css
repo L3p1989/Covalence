@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    user-select: none;
+}
+
+.message {
+    color: white;
+}
+
+.board {
+    padding-top: 3em;
+}
+
+h1 {
+    text-align: center
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.row::after {
+    clear: left;
+}
+
+.row {
+    margin: 0 auto;
+    width: 302px;
+    text-align: center;
+    font-size: 5em;
+}
+
+.top {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.right {
+    border-left: 1px solid white;
+    cursor: pointer;
+}
+
+.bottom {
+    border-top: 1px solid white;
+    cursor: pointer;
+}
+
+.left {
+    border-right: 1px solid white;
+    cursor: pointer;
+}
