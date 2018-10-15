@@ -1,1 +1,1 @@
-<!-- This repository contains all of my coursework for Covalence -->
+This repository contains all of my coursework for Covalence
