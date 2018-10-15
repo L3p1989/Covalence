@@ -1,4 +1,4 @@
-This includes the index and js for the HTML lab"# HTML" 
+This includes the index HTML lab"# HTML" 
 
 Objective
 Implement and practice the use of HTML elements and attributes.
