@@ -3,7 +3,7 @@ var msg = document.getElementById('message');
 var markers = ['X', 'O'];
 var turn = 0;
 var moveCount = 0;
-var players = ['Player2', 'Player1']
+var players = ['O', 'X']
 
 msg.textContent = markers[turn] + "'s turn"
 
