@@ -18,7 +18,7 @@ Practice pulling in Bootstrap 4’s CDN and using its class based styling.
 
  1. Add a div to your html document, using bootstraps container class, have this be a container.
  2. To visually see what a container class does to a div, we will need to apply some styling to it in css. Let’s go to our css document and apply a background-color of blue and a height of 500px to anything with a class named container (Which for know should only be 1 element).
- 3. Change the class on the div from a container to a container-fluid. Refresh and take not of the differences. Once you are finished visually seeing the difference between the two, remove or comment out the styling in the css file.
+ 3. Change the class on the div from a container to a `container-fluid`. Refresh and take note of the differences. Once you are finished visually seeing the difference between the two, remove or comment out the styling in the css file.
  4. Insert a div inside of the existing container div. Give this div a class name of row, then insert an h1 element inside of the row div. Have the text read “First Boostrap Project”.
  5. Refer this [link](https://getbootstrap.com/docs/4.0/layout/grid/) on the grid system to learn how rows and alignment work using bootstrap. Lets try to center align our h1, go to the following link to explore how to do so. (Hint: Jump to the horizontal alignment section of bootstraps documents, you may need to adjust the amount of columns, 1 through 12, to keep everything on 1 line).
  6. Add a new div which will be another row of elements. Add 3 divs, give each some text of your choice and apply bootstrap styling to have 1 div appear at the start of the row, one in the center, and one at the end.
