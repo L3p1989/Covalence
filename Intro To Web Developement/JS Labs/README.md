@@ -1,1 +1,0 @@
-# Here you will find the my labs from Covalnce's pre-course on JavaScript
