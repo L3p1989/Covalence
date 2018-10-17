@@ -13,48 +13,80 @@
 <body>
     <div class="container-fluid">
         <!-- blue row with Your "Name", "Your Position", and "(this is a jumbotron)" in descending order -->
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <div class="jumbotron bg-primary text-white">
-                    <h1>Your Name</h1>
-                    <h3>Your Position</h3>
-                    <p>(this is a jumbotron)</p>
-                </div>
+        <div class="row d-flex justify-content-center">
+            <div class="jumbotron w-75 bg-primary text-white">
+                <h1>Your Name</h1>
+                <h3>Your Position</h3>
+                <p>(this is a jumbotron)</p>
             </div>
-            <div class="col-sm-2"></div>
         </div>
         <!-- Green row with green text containing "This resume was created using Bootstrap 4! (This is an alert)" -->
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-8">
-                <div class="alert alert-success" role="alert">
-                    This resume was created using Bootstrap 4! (This is an alert)
-                </div>
+        <div class="row d-flex justify-content-center">
+            <div class="alert w-75 alert-success" role="alert">
+                This resume was created using Bootstrap 4! (This is an alert)
             </div>
-            <div class="col-sm-2"></div>
         </div>
         <!-- plain .row with "My skills" <h1>, "(This is a list group with badges)", "HTML/CSS" split with "25%" badge, "Front-End Javascript" split with "20%" badge, "NodeJS Server Developement" with "35%" badge, and "SQL" with a "20%" badge -->
-                <div class="row">
-                        <div class="col-sm-2"></div>
-                        <div class="col-sm-8">
-                            <h1>My Skills</h1>
-                            <p>(This is a list group with badges)</p>
-                            <ul class="list-group">
-                                <li class="list-group-item">HTML/CSS</li>
-                                <li class="list-group-item">Front-End Javascript</li>
-                                <li class="list-group-item">NodeJS Server Developement</li>
-                                <li class="list-group-item">SQL</li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-2"></div>
-                    </div>
+        <div class="row justify-content-center">
+            <h1 class="w-75">My Skills</h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="w-75">(This is a list group with badges)</p>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <ul class="list-group w-75">
+                <li class="list-group-item d-flex justify-content-between">HTML/CSS<span class="badge badge-secondary bg-primary">25%</span></li>
+                <li class="list-group-item d-flex justify-content-between">Front-End Javascript <span class="badge badge-secondary bg-primary">20%</span></li>
+                <li class="list-group-item d-flex justify-content-between">NodeJS Server Developement <span class="badge badge-secondary bg-primary">35%</span></li>
+                <li class="list-group-item d-flex justify-content-between">SQL <span class="badge badge-secondary bg-primary">20%</span></li>
+            </ul>
+        </div>
         <!-- "My Experience" plain .row with text "(This uses the grid system with cards)" and 8 .cards with "350 x 150" empty img header, "Card title" h1, "Some quick example text to build on the card title and make up the bulk of the card's content" p, and a "Go somewhere" button at the end -->
-
-        <!-- white jumbotron with "Your Contact Information Here", and "(this is a jumbotron)" in descending order -->
-
-        <!-- row(s)/container(s) should be centered in the middle of the page -->
+        <div class="row d-flex justify-content-center">
+            <h1 class="w-75">My Experience</h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <p class="w-75">(This uses the grid system with cards)</p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <!-- white jumbotron with "Your Contact Information Here", and "(this is a jumbotron)" in descending order -->
+
+    <!-- row(s)/container(s) should be centered in the middle of the page -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
