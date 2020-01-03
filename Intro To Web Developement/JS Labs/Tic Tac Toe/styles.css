@@ -1,55 +1,95 @@
+/* select body */
 body {
-    text-align: center;
-    background-color: black;
-    color: white;
-    user-select: none;
+  /* align text to center */
+  text-align: center;
+  /* background color is black */
+  background-color: black;
+  /* font color is white */
+  color: white;
+  /* prevent text selection */
+  user-select: none;
 }
 
+/* select message class */
 .message {
-    color: white;
+  /* font color is white */
+  color: white;
 }
 
+/* select board class */
 .board {
-    padding-top: 3em;
+  /* top padding is 3em */
+  padding-top: 3em;
 }
 
+/* select h1 elements */
 h1 {
-    text-align: center
+  /* align text to center */
+  text-align: center;
 }
 
+/* select div in row class */
 .row > div {
-    float: left;
-    height: 100px;
-    width: 100px;
+  /* float all tiles to the left */
+  float: left;
+  /* height of all tiles is 100px */
+  height: 100px;
+  /* width of all tiles is 100px */
+  width: 100px;
 }
 
+/* after row class */
 .row::after {
-    clear: left;
+  /* nothing can float to the left of this element */
+  clear: left;
 }
 
+/* select row class */
 .row {
-    margin: 0 auto;
-    width: 302px;
-    text-align: center;
-    font-size: 5em;
+  /* auto determine margin to sit centrally */
+  margin: 0 auto;
+  /* width is 302px */
+  width: 302px;
+  /* align text to center */
+  text-align: center;
+  /* font size 5em */
+  font-size: 5em;
 }
 
+/* select top class */
 .top {
-    border-bottom: 1px solid white;
-    cursor: pointer;
+  /* solid white border 1px wide across the bottom */
+  border-bottom: 1px solid white;
+  /* mouse over is a pointer */
+  cursor: pointer;
 }
 
+/* select right class */
 .right {
-    border-left: 1px solid white;
-    cursor: pointer;
+  /* solid white border 1px wide across the left side */
+  border-left: 1px solid white;
+  /* mouse over is a pointer */
+  cursor: pointer;
 }
 
+/* select bottom class */
 .bottom {
-    border-top: 1px solid white;
-    cursor: pointer;
+  /* solid white border 1px wide across the top */
+  border-top: 1px solid white;
+  /* mouse over is a pointer */
+  cursor: pointer;
 }
 
+/* select left class */
 .left {
-    border-right: 1px solid white;
-    cursor: pointer;
+  /* solid white border 1px wide across the right side */
+  border-right: 1px solid white;
+  /* mouse over is a pointer */
+  cursor: pointer;
+}
+
+/* select center class */
+.center {
+  /* mouse over is a pointer */
+  cursor: pointer;
 }
